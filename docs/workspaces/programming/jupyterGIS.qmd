@@ -23,7 +23,7 @@ packages: []
 gpu: true
 admin: true
 support: UU
-workspace_cuda: VRE lab GPU
+workspace_cuda: JupyterGIS GPU
 
 ---
 
@@ -38,6 +38,8 @@ Features include:
 - Importing and exporting QGIS projects.
 
 See the [JupyterGIS documentation](https://jupytergis.readthedocs.io/) for the full feature list and usage instructions.
+
+There is also a **JupyterGIS GPU** catalog item available. It is useful when your workflow includes GPU-enabled tools or libraries alongside JupyterGIS, but it does not necessarily accelerate JupyterGIS itself.
 
 ### Based on VRE Lab
 
